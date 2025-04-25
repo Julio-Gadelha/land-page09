@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -88,44 +89,19 @@ button{
     background-color: rgb(0, 38, 255);
     color: white;
 }
-.image img{
-    width: 100vw;
-    height: 60vh;
-    filter: brightness(0.2);
+.New{
+   margin-top: 10vw;
+   margin-left: 15vw;
+   font-family: "Cal Sans", sans-serif;
+  font-weight: 400;
+  font-size: 11px;
 }
-#hero{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.New h5{
+ font-family: 'Poppins',sans-serif;
+ font-weight: 700;
+ font-size: 40px;
+ letter-spacing: -1px;
+ line-height: 1.2;
+ text-align: left;
+ color: #212121;
 }
-#content{
-    position: absolute;
-}
-#texts h4{
-    color: orangered;
-    font-family: "poppins"serif;
-    font-size: 24px;
-    text-align: center;
-} 
- #texts h1{
-       color: white; 
-       font-family: "poppins" ,serif;
-       font-size: 42px;
-    }
-    #search{
-        display:flex;
-    }
-  #search input{
-       height: 6vh;
-      width: 23vw;
-      outline: none;
-    }
-    #search button{
-        height: 6.6vh;
-        width:10vw ;
-        outline: none;
-    }
-   #search input::placeholder{
-    padding-left: 20px;
-    color: rgb(201, 203, 203);
-   }
