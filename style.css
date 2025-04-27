@@ -36,6 +36,7 @@
     width: 30vw;
     margin-left: 22vw;
     word-spacing: 15px;
+  
 }
 
 #menu{
@@ -104,4 +105,8 @@ button{
  line-height: 1.2;
  text-align: left;
  color: #212121;
+ margin-top: 12px;
+}
+.New h3{
+    margin-top: 16px;
 }
